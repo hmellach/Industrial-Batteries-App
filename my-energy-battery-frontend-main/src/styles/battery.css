@@ -1,0 +1,53 @@
+.battery {
+  margin: 4px;
+}
+
+.battery.megapack2XL {
+  background-color: red;
+  width: 150px;
+  height: 80px;
+}
+
+.battery.megapack2 {
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+}
+
+.battery.megapack {
+  background-color: green;
+  width: 25px;
+  height: 25px;
+}
+
+.battery.powerpack {
+  background-color: yellow;
+  width: 15px;
+  height: 15px;
+}
+
+.box {
+  padding: 20px;
+}
+
+.result-container {
+  border: 1px solid #503636;
+  padding: 20px;
+}
+
+
+.battery-transformer-container {
+  display: flex; 
+  margin-top: 10px;
+}
+
+.calculation-result {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #6f5757;
+}
+
+.calculation-result p {
+  margin: 5px 0;
+}

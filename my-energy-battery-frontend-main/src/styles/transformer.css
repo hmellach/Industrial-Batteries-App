@@ -1,0 +1,23 @@
+.transformer {
+  display: inline-block;
+  margin: 4px;
+}
+
+.transformer .transformer-head {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.transformer .transformer-body {
+  background-color: gray;
+  width: 10px;
+  height: 40px;
+}
+
+.transformer .transformer-legs {
+  background-color: gray;
+  width: 6px;
+  height: 40px;
+}
